@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/freakycue/express-dynamic-helpers-patch.git"
+    "url": "git://github.com/marvnet/express-dynamic-helpers-patch.git"
   },
   "keywords": [
     "express3",
