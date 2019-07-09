@@ -7,7 +7,7 @@ module.exports = (app) => {
   // add dynamicHelpers function to app object
   app.dynamicHelpers = (helpers) => {
     app._dynamicHelpers = app._dynamicHelpers || {};
-    for (var key in helpers) {
+    for (let key in helpers) {
       if (helpers.hasOwnProperty(key)) {
         app._dynamicHelpers[key] = helpers[key];
       }
@@ -20,7 +20,7 @@ response.render = function() {
   var dynamicHelpers = this.app._dynamicHelpers;
 
   if (dynamicHelpers) {
-    for (var key in dynamicHelpers) {
+    for (let key in dynamicHelpers) {
       // call every helper and sign result to locals
       this.locals[key] = dynamicHelpers[key].call(this.app, this.req, this);
     }
