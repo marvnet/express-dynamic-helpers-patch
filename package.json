@@ -1,6 +1,6 @@
 {
   "name": "express-dynamic-helpers-patch",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Dynamic helpers monkey patch for express 3.x and 4.x",
   "main": "index.js",
   "scripts": {
