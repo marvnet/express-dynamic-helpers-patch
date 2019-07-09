@@ -1,5 +1,3 @@
-'use strict';
-
 // express response patch for dynamicHelpers support
 var response = require('express').response,
   render = response.render;
