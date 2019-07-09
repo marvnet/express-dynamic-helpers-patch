@@ -3,9 +3,9 @@ const response = require('express').response,
   render = response.render;
 
 
-module.exports = function(app) {
+module.exports = (app) => {
   // add dynamicHelpers function to app object
-  app.dynamicHelpers = function(helpers) {
+  app.dynamicHelpers = (helpers) => {
     app._dynamicHelpers = app._dynamicHelpers || {};
     for (var key in helpers) {
       if (helpers.hasOwnProperty(key)) {
