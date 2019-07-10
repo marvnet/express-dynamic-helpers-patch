@@ -7,14 +7,20 @@ Dynamic helpers monkey patch for express 3.x and 4.x
 
 ### How to install?
 
-```js
-  npm install express-dynamic-helpers-patch --save
+**Using yarn:**
+```bash
+  yarn add @marvnet/express-dynamic-helpers-patch
+```
+
+**Using npm:**
+```bash
+  npm install @marvnet/express-dynamic-helpers-patch --save
 ```
 
 ### How to use It?
 
 ```js
-  require('express-dynamic-helpers-patch')(app);
+  require('@marvnet/express-dynamic-helpers-patch')(app);
   // and now You can use 2.x express dynamicHelpers
   app.dynamicHelpers({
     user: function (req, res) {
@@ -23,4 +29,5 @@ Dynamic helpers monkey patch for express 3.x and 4.x
   });
 ```
 
-License: MIT
+### License
+This project is licensed under the MIT license.
