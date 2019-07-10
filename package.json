@@ -24,7 +24,7 @@
   "author": "Pavel Vlasov <freakycue@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marvnet/express3-dynamic-helpers-patch/issues"
+    "url": "https://github.com/marvnet/express-dynamic-helpers-patch/issues"
   },
-  "homepage": "https://github.com/marvnet/express3-dynamic-helpers-patch"
+  "homepage": "https://github.com/marvnet/express-dynamic-helpers-patch"
 }
