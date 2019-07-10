@@ -1,7 +1,7 @@
 express-dynamic-helpers-patch
 ==============================
 
-This is a 'patched' version of pavelvlasov's original library that uses more modern JavaScript syntax. 
+**This is a 'patched' version of pavelvlasov's original library that uses more modern and faster JavaScript.** 
 
 Dynamic helpers monkey patch for express 3.x and 4.x
 
